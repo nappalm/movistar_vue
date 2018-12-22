@@ -1,0 +1,130 @@
+/* vdesktop version */
+
+#login-navbar{
+	height: 125px;
+	background-color: #00c600;
+}
+
+#logo{
+	margin: 22px auto;
+	display: inherit;
+}
+
+#title{
+	margin: 25px auto;
+	display: inherit;
+	color: #fff;
+	font-size: 18px;
+}
+
+#title span{
+	font-size: 48px;
+}
+
+#recover{
+	position: relative;
+	top: 50px;
+	font-size: 12px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 12px !important;
+    line-height: 3;
+}
+
+#body-login{
+	height: 100vh;
+	// background-image:url('../img/login/bacnkground.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.top-card{
+	position: relative;
+	top: 100px;
+}
+
+.card-body{
+
+}
+
+.btn{
+	font-size: 12px;
+	padding: 10px 15px;
+}
+
+/* mobil version */
+
+#title-mobile{
+	margin: 25px auto;
+	display: inherit;
+	color: #fff;
+	font-size: 18px;
+}
+
+#title-mobile span{
+	font-size: 36px;
+}
+
+.card-header{
+	background-color: #00abe2;
+	color: #fff;
+}
+
+.card-header p:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.display-none{
+	display: none;
+}
+
+#sigin{
+	background-color: #00abe2;
+	border-color: #00abe2;
+	color: #fff;
+}
+
+.input-group-text{
+	background-color: #fff;
+}
+
+.input-group-text{
+	border-right-color: transparent;
+}
+
+.form-control{
+	border-left-color: transparent;
+}
+
+.l-padding{
+	padding-left: 22px;
+}
+
+
+
+/* media query  */
+@media only screen and (min-width: 600px) and (max-width: 1200px){
+	#title{
+		margin: 35px auto;
+	}
+
+    #title span{
+    	font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	#login-navbar{
+		height: 250px;
+	}
+
+	#title-mobile{
+		text-align: center;
+		margin: 10px auto;
+	}
+}
